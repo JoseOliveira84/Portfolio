@@ -1,0 +1,111 @@
+@media (max-width: 1080px) {
+  .navbar-container {
+    display: none;
+  }
+  .showcase-container > h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+  .showcase-container > p {
+    font-size: 0.975rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .about-me-content img {
+    width: 200px;
+    height: 200px%;
+    object-fit: cover;
+  }
+  .about-me-content p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .about-me-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .about-me-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .skills-content {
+    margin-top: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 0 30px;
+  }
+  .skill-item {
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  .skill-item img {
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .skill-item span {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+  }
+  .skill-item p {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .projects-content {
+    margin-top: 40px;
+  }
+
+  .project-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-content .project-item {
+    justify-content: center;
+    text-align: center;
+  }
+  .projects-content .project-item:nth-child(even){
+    justify-content: center;
+    text-align: center;
+  }
+  .projects-content .project-item:nth-child(even) > .project-item-image {
+    order: 1;
+  }
+  .projects-content .project-item:nth-child(even) > .project-text{
+    order: 2;
+  }
+  .project-text h4 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+  }
+    .project-text p {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+       padding: 0 30px;
+    }
+  /* utiutilites  */
+
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-container {
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+  .form-button {
+   margin-bottom: 30px;
+  }
+  .footer-container {
+   flex-direction: column;
+   padding: 15px;
+  }
+}
