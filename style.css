@@ -5,6 +5,9 @@
   font-family: "Poppins", sans-serif;
   color: white;
 }
+a {
+  text-decoration: none;
+}
 /* Navbar */
 .navbar-container {
   width: 100%;
